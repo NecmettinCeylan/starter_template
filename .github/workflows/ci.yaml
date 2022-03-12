@@ -30,9 +30,9 @@ jobs:
     - name: Run flake8
       run: flake8
     - name: Run Pylint
-      run: pylint retinaface
+      run: pylint main
     - name: Run Mypy
-      run: mypy retinaface
+      run: mypy main
     - name: tests
       run: |
        pip install .[tests]
